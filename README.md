@@ -15,8 +15,7 @@ The recommended setup steps are as follows:
  The first row should contain the name of the days followed by the slot timings for each day in the second row. The subsequent rows should contain the TA availability (1 for available and 0 for not available) with the first column containing the TA name.
 
  ## Generating the Schedule
- To generate the schedule, run the following command :\
+ To generate the schedule, run the following command in your conda environment :\
  ```bash
-conda activate clvision24
-python train.py --config_file scenario_1.pkl
+python Scheduler.py -f <availability>.csv
 ```
