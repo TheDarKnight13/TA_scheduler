@@ -5,7 +5,7 @@ This is Python script can automatically generate a schedule based on the availab
 The recommended setup steps are as follows:
 1. Install  [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html) and create an environment.
 2. Install the Google [OR-tools library](https://pypi.org/project/ortools/)
-3. Enusre that the file structure is as follows: \
+3. Ensure that the file structure is as follows: \
     ├── Folder \
   &emsp;   ├── Scheduler.py               # The python script \
   &emsp;   ├── Availability.csv           # Any TA availability csv file that you want to bulid a schedule for \
@@ -17,5 +17,6 @@ The recommended setup steps are as follows:
  ## Generating the Schedule
  To generate the schedule, run the following command in your conda environment :\
  ```bash
-python Scheduler.py -f *availability*.csv
+python Scheduler.py -f availability.csv
 ```
+The generated schedule will automatically be printed in a .txt file within the same folder.
