@@ -10,6 +10,13 @@ The recommended setup steps are as follows:
   &emsp;   ├── Scheduler.py               # The python script \
   &emsp;   ├── Availability.csv           # Any TA availability csv file that you want to bulid a schedule for \
 
- ## CSV file format
+ ## Availability CSV file format
  The format of the availability csv file should strictly follow the 2 example csv files in this repo. \
  The first row should contain the name of the days followed by the slot timings for each day in the second row. The subsequent rows should contain the TA availability (1 for available and 0 for not available) with the first column containing the TA name.
+
+ ## Generating the Schedule
+ To generate the schedule, run the following command :\
+ ```bash
+conda activate clvision24
+python train.py --config_file scenario_1.pkl
+```
