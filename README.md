@@ -17,5 +17,5 @@ The recommended setup steps are as follows:
  ## Generating the Schedule
  To generate the schedule, run the following command in your conda environment :\
  ```bash
-python Scheduler.py -f <availability>.csv
+python Scheduler.py -f *availability*.csv
 ```
