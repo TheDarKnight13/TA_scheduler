@@ -8,7 +8,7 @@ The recommended setup steps are as follows:
 3. Ensure that the file structure is as follows: \
     ├── Folder \
   &emsp;   ├── Scheduler.py               # The python script \
-  &emsp;   ├── Availability.csv           # Any TA availability csv file that you want to bulid a schedule for \
+  &emsp;   ├── Availability.csv           # Any TA availability csv file that you want to bulid a schedule for 
 
  ## Availability CSV file format
  The format of the availability csv file should strictly follow the 2 example csv files in this repo. \
