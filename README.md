@@ -1,4 +1,4 @@
-# TA_scheduler
+# TA scheduler
 This is Python script can automatically generate a schedule based on the availability of the TAs.
 
 ## Getting started 
